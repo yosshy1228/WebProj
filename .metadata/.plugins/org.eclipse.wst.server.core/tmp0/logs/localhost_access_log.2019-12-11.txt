@@ -53,3 +53,6 @@
 127.0.0.1 - - [11/Dec/2019:21:08:53 +0900] "GET / HTTP/1.1" 404 1019
 0:0:0:0:0:0:0:1 - - [11/Dec/2019:21:08:54 +0900] "GET /WebProj2/ HTTP/1.1" 200 2189
 0:0:0:0:0:0:0:1 - - [11/Dec/2019:21:09:30 +0900] "GET /WebProj2/TestAction.action?username=jir&password=123 HTTP/1.1" 200 207
+127.0.0.1 - - [11/Dec/2019:21:18:13 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [11/Dec/2019:21:18:16 +0900] "GET /WebProj2/ HTTP/1.1" 200 2189
+0:0:0:0:0:0:0:1 - - [11/Dec/2019:21:18:33 +0900] "GET /WebProj2/TestAction.action?username=jiro&password=123 HTTP/1.1" 200 208
