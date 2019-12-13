@@ -24,8 +24,11 @@ public class InquiryCompleteAction extends ActionSupport{
 	public void setName(String name){
 		this.name = name;
 	}
-	public String setQtype(String qtype){
+	public String getQtype(){
 		return qtype;
+	}
+	public void setQtype(String qtype){
+		this.qtype = qtype;
 	}
 	public String getBody(){
 		return body;
