@@ -9,11 +9,13 @@ public class LoginAction extends ActionSupport{
 
 	public String execute() {
 		String ret=ERROR;
-		System.out.println(username);
-		System.out.println(password);
+		System.out.println("ゆーざー名(画面)："+username);
+		System.out.println("パスワード(画面)："+password);
 		LoginDAO dao=new LoginDAO();
 		LoginDTO dto=new LoginDTO();
 		dto=dao.select(username, password);
+		System.out.println("ゆーざー名(dto)："+dto.getUsername());
+		System.out.println("パスワード(dto)："+dto.getPassword());
 		if(this.username.equals(dto.getUsername()) && this.password.equals(dto.getPassword())){
 			ret=SUCCESS;
 		}else{
