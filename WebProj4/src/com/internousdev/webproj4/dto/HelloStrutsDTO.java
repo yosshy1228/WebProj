@@ -6,7 +6,7 @@ public class HelloStrutsDTO {
 	private String password;
 	private String result;
 
-	public int getuserId(){
+	public int getUserId(){
 		return userId;
 	}
 	public void setUserId(int userId){
@@ -20,6 +20,9 @@ public class HelloStrutsDTO {
 	}
 	public String getPassword(){
 		return password;
+	}
+	public void setPassword(String password){
+		this.password = password;
 	}
 	public String getResult(){
 		return result;

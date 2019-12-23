@@ -1,6 +1,6 @@
-drop database if exists testdb;
-create database testdb;
-use testdb;
+drop database if exists testdb_shibata;
+create database testdb_shibata;
+use testdb_shibata;
 
 create table users(
 user_id int primary key auto_increment,
