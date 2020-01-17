@@ -21,6 +21,7 @@ public class InquiryCompleteAction extends ActionSupport{
 		int count = dao.insert(name, qtype, body);
 		if(count > 0){
 			inquiryDTOList=dao.select();
+
 		ret=SUCCESS;
 		}
 		return ret;
