@@ -12,7 +12,7 @@ import com.internousdev.webproj5.util.DBConnector;
 
 public class LoginDAO {
 	public String username;
-	public String passwordl;
+	public String password;
 
 	public List<LoginDTO> loginDTOList = new ArrayList<LoginDTO>();
 
@@ -35,7 +35,7 @@ public class LoginDAO {
 				dto.setPassword(rs.getString("password"));
 				System.out.println(dto);
 				loginDTOList.add(dto);
-				System.out.println(loginDTOList);
+				System.out.println("loginDTOList");
 			}
 			if(loginDTOList.size()<=0) {
 				LoginDTO dto = new LoginDTO();
@@ -53,7 +53,7 @@ public class LoginDAO {
 				e.printStackTrace();
 			}
 			System.out.println("cc");
-			System.out.println(loginDTOList);
+			System.out.println("loginDTOList");
 			return loginDTOList;
 
 		}
