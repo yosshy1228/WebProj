@@ -52,10 +52,8 @@ public class InquiryCompleteAction extends ActionSupport implements SessionAware
 	public Map<String, Object> getSession() {
 		return session;
 	}
-	@Override
-	public void setSession(Map<String, Object> arg0) {
-		// TODO 自動生成されたメソッド・スタブ
-
+	public void setSession(Map<String, Object> session) {
+		this.session = session;
 	}
 
 }
